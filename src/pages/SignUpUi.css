@@ -1,0 +1,367 @@
+.login {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.left {
+    width: 588px;
+    height: 100vh;
+
+    color: white;
+    background-color: #000000;
+
+}
+
+.board {
+
+    position: absolute;
+
+    left: 10%;
+    top: 50%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 88px;
+
+    color: #FFFFFF;
+
+}
+
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20%;
+    height: 100vh;
+}
+
+.sign_in .sign_in_text {
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+    color: #000000;
+
+}
+
+.sign_in .sign_in_subtext {
+    margin-top: 5px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.authbuttons {
+    margin-top: 26px;
+}
+
+.googlebtn {
+    margin-right: 25px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 180px;
+    height: 30px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.applebtn {
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 180px;
+    height: 30px;
+    border: 0px;
+    cursor: pointer;
+
+}
+
+
+.sign_form {
+    background: #FFFFFF;
+    border-radius: 20px;
+    width: 385px;
+    height: 317px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    gap: 1rem;
+    padding: 30px;
+    margin-top: 32px;
+}
+
+#email,
+#password {
+    background-color: pink;
+    background: #F5F5F5;
+    border-radius: 10px;
+    width: 325px;
+    height: 40px;
+    border: 0px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.email_label,
+.password_label {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.forget {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+    /* Link */
+    color: #346BD5;
+}
+
+.signbtns {
+    cursor: pointer;
+    background: #000000;
+    border-radius: 10px;
+    width: 325px;
+    height: 40px;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.no_account {
+    margin-top: 20px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    /* Secondary Text */
+    color: #858585;
+}
+
+.register_text {
+    color: #346BD5;
+    cursor: pointer;
+
+}
+
+@media (max-width: 1024px) {
+    /* .login {
+        width: 768px;
+    } */
+
+    /* .board {
+
+        position: absolute;
+
+        left: 5%;
+        top: 50%;
+    } */
+
+    .left {
+        width: 488px;
+    }
+
+    .right {
+        padding-left: 8%;
+    }
+
+
+
+    .sign_in .sign_in_text {
+        margin-top: -15%;
+        margin-left: 33%;
+    }
+
+    .sign_in .sign_in_subtext {
+
+        margin-left: 33%;
+    }
+}
+
+@media (max-width: 790px) {
+    .login {
+        width: 768px;
+    }
+
+    .board {
+
+        position: absolute;
+
+        left: 5%;
+        top: 50%;
+    }
+
+    .left {
+        width: 328px;
+    }
+
+    .right {
+        padding-left: 1%;
+    }
+
+    .no_account {
+        text-align: center;
+    }
+
+    .sign_in .sign_in_text {
+        margin-top: -15%;
+        margin-left: 33%;
+    }
+
+    .sign_in .sign_in_subtext {
+
+        margin-left: 33%;
+    }
+
+    .sign_form {
+
+        width: 410px;
+
+        padding: 30px;
+
+    }
+}
+
+@media (max-width: 430px) {
+    .login {
+        width: 420px;
+    }
+
+    .left {
+        display: none;
+    }
+
+    .right {
+        padding-left: 2%;
+    }
+
+    .no_account {
+        text-align: center;
+    }
+
+    .sign_in .sign_in_text {
+        margin-top: -15%;
+        margin-left: 33%;
+    }
+
+    .sign_in .sign_in_subtext {
+
+        margin-left: 33%;
+    }
+
+    .sign_form {
+
+        width: 420px;
+
+        padding: 30px;
+
+    }
+}
+
+@media (max-width: 320px) {
+    .login {
+
+        width: 420px;
+
+
+    }
+
+    .left {
+        display: none;
+    }
+
+    .right {
+        padding-left: 2%;
+
+    }
+
+    .googlebtn {
+        width: 140px;
+    }
+
+    .applebtn {
+        width: 140px;
+    }
+
+    .no_account {
+        text-align: start;
+    }
+
+    .sign_in .sign_in_text {
+        margin-top: -15%;
+        margin-left: 23%;
+    }
+
+    .sign_in .sign_in_subtext {
+
+        margin-left: 23%;
+    }
+
+    .sign_form {
+
+        width: 305px;
+        height: 317px;
+
+        gap: 1rem;
+        padding: 15px;
+
+    }
+
+    .signbtns {
+
+        width: 280px;
+        height: 40px;
+        color: white;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    #email,
+    #password {
+
+        width: 280px;
+        height: 40px;
+
+        padding-left: 10px;
+
+    }
+
+}

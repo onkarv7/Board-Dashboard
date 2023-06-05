@@ -1,0 +1,56 @@
+/* top */
+
+
+
+.top {
+    height: 90%;
+    width: 55%;
+    border-radius: 20px !important;
+    background-color: white;
+}
+
+.title {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0px 20px;
+}
+
+.title h3,
+.title div {
+    background-color: white;
+}
+
+
+@media (max-width: 790px) {
+    .top {
+        width: 100%;
+        padding-left: 10rem;
+
+    }
+
+    .title {
+        display: flex;
+        gap: 4rem;
+        margin: 0px 7px;
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 430px) {
+    .top {
+        width: 100%;
+        padding-left: 1rem;
+        height: 100%;
+    }
+
+    .title {
+        display: flex;
+        gap: 4rem;
+        margin: 0px 7px;
+        font-size: 15px;
+    }
+
+}

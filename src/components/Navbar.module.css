@@ -1,0 +1,62 @@
+/* Nvbar */
+.navbar {
+    height: 10%;
+    width: 100%;
+    /* background-color: turquoise; */
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar .input {
+    height: 25px;
+    width: 180px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    background: #ffffff;
+}
+
+.navbar .navbar_title {
+    font-family: Montserrat;
+    font-style: bold;
+    font-size: 24px;
+}
+
+.profile_icon {
+    height: 30px;
+    width: 30px;
+}
+
+.notification_icon {
+    height: 23px;
+    width: 18px;
+}
+
+/* .search-icon {
+    position: absolute;
+  } */
+
+
+@media (max-width: 430px) {
+    .navbar {
+
+        flex-direction: column;
+        gap: 0.8rem;
+        margin-bottom: 1rem;
+
+    }
+
+    .navbar .navbar_title {
+
+        text-align: center;
+    }
+
+}

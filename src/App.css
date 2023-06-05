@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", "Open Sans", "Lato", sans-serif;
+  /* background-color: #dddddd; */
+}
+
+.App {
+  background-color: #dddddd;
+  /* min-height: 120vh; */
+  width: 99.85vw;
+  margin: 0;
+  /* margin-top: -30px; */
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+
+.pie_chart {
+  margin-left: 30px;
+  height: 270px;
+}
+
+
+
+/* style= {
+    {
+    backgroundColor: "white",
+     height: "214px", width: "350px"
+  }
+} */
+@media (max-width: 430px) {
+  .pie_chart {
+    margin-left: -17px;
+    height: 250px;
+  }
+
+}
